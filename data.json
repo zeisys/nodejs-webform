@@ -1,0 +1,44 @@
+[
+  {
+    "key": "First Name",
+    "value": "Sam Joe"
+  },
+  {
+    "key": "Address",
+    "value": "123 some street,\napartment 403"
+  },
+  {
+    "key": "Permanent",
+    "value": true
+  },
+  {
+    "key": "Phone Number",
+    "value": "0015715550013"
+  },
+  {
+    "key": "Favorite Fruits",
+    "value": [
+      "apple",
+      "pear"
+    ]
+  },
+  {
+    "key": "Country",
+    "value": "USA"
+  },
+  {
+    "key": "State",
+    "value": "VA"
+  },
+  {
+    "key": "Type of Phone",
+    "value": "home"
+  },
+  {
+    "key": "Favorite Color",
+    "value": [
+      "red",
+      "yellow"
+    ]
+  }
+]
