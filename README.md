@@ -6,7 +6,7 @@
   
 2. The application must be deployed as a static website in an AWS S3 bucket (no other technology)
   
-3. The architecture of the system is https://raw.githubusercontent.com/zeisys/nodejs-webform/main/architecture.png
+3. The architecture of the system is ![Drag Racing](architecture.png)
 
 4. The fields in the web form should be configurable based on form.json https://raw.githubusercontent.com/zeisys/nodejs-webform/main/form.json
   
