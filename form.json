@@ -40,7 +40,7 @@
     {
       "type": "Checkbox",
       "heading": "Permanent",
-      "max characters": 300,
+      "default": true,
       "tooltip": "Is this employee permanent?",
       "x-position": 220,
       "y-position": 220
@@ -49,8 +49,8 @@
       "type": "TextBox",
       "heading": "Phone Number",
       "value": "number",
-      "max characters": 13,
-      "tooltip": "Enter first name here",
+      "max value": 9999999999999,
+      "tooltip": "Enter phone number here",
       "x-position": 230,
       "y-position": 230
     },
@@ -58,7 +58,7 @@
       "type": "MultiSelectList",
       "heading": "Favorite Fruits",
       "value": "favoritefruit.json",
-      "tooltip": "Enter favorite fruit",
+      "tooltip": "Select favorite fruit",
       "x-position": 240,
       "y-position": 240
     },
@@ -67,7 +67,7 @@
       "heading": "Country",
       "list": "countries.json",
       "key": "country",
-      "tooltip": "Enter country",
+      "tooltip": "Select country",
       "x-position": 245,
       "y-position": 245
     },
@@ -81,7 +81,7 @@
           "key": "states"
         }
       ],
-      "tooltip": "Enter state",
+      "tooltip": "Select state",
       "x-position": 250,
       "y-position": 250
     },
@@ -93,7 +93,7 @@
         "filterby": "phone",
         "key": "type"
       },
-      "tooltip": "Enter state",
+      "tooltip": "Select phone type",
       "x-position": 260,
       "y-position": 260
     },
@@ -101,7 +101,7 @@
       "type": "AddRemoveList",
       "heading": "Favorite Color",
       "value": "favoritecolor.json",
-      "tooltip": "Enter favorite color",
+      "tooltip": "Add favorite colors",
       "x-position": 270,
       "y-position": 270
     }
@@ -110,14 +110,14 @@
     {
       "title": "Clear",
       "javascript": "<>",
-      "tooltip": "enter first name here",
+      "tooltip": "Reset form",
       "x-position": 600,
       "y-position": 600
     },
     {
       "title": "Submit",
       "javascript": "<>",
-      "tooltip": "enter first name here",
+      "tooltip": "Submit form",
       "x-position": 620,
       "y-position": 600
     }
